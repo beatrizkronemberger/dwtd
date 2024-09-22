@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dancing With The Devil</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/dancingwtd.jpeg" alt="DWTD: TAOSO"> Dancing With The Devil
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">O Clipe</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#">Demi Lovato</a>
+            <a class="nav-item nav-link" id="services-menu" href="#">DWTD</a>
+            <a class="nav-item nav-link" id="team-menu" href="#">Documentário</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#">O Álbum</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <video width="100%" height="auto" controls>
+        <source src="img/Demi Lovato - Dancing With The Devil (Official Video) (720p, h264).mp4" type="video/mp4">
+      </video>
+
+      <!-- Sobre a empresa -->
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Quem é Demi Lovato?</h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/demi.jpeg" alt="Demi Lovato">
+            </div>
+            <div class="col-md-6">
+              <h2 class="about-title">DEMI LOVATO</h2>
+              <br>
+              <p>Demi é uma cantora, compositora e atriz estadunidense. Sua carreira teve início em 2002, quando, aos 9
+                anos, ingressou no elenco de "Barney e seus amigos".</p>
+              <p>"Don't Forget" é o álbum de estréia da cantora na cena musical.</p>
+              <p>Protagonizou o filme "Camp Rock" em 2008, e a série "Sunny entre estrelas" entre os anos de 2009 e
+                2011, e foi nesse período que Demi cativou seu público e conquistou os corações de milhares de pessoaas
+                no mundo inteiro.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Serviços da empresa -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">DANCING WITH THE DEVIL</h3>
+            </div>
+              <b>It's just a little red wine, I'll be fine / 
+              Not like I wanna do this every night / 
+              I've been good, don't I deserve it? / 
+              I think I earned it, feels like it's worth it / 
+              In my mind, mind </b>
+              <p>No começo da música Demi questiona o motivo de está sóbria, já que estava infeliz.
+              Debate se merece a liberdade de beber, e se sente confiante em relação ao seu
+              autocontrole sendo algo que acreditava que valia a pena no momento para ela.
+              Então resolve voltar a beber, como canta no verso “It's just a little red wine”. No
+              documentário Demi Lovato: Dancing with the devil ela conta que pega uma garrafa
+              de vinho tinto e bebe pela primeira vez em 6 anos. Ela fala que a ideia era beber de
+              forma moderada e não perder o controle como no passado. Mas nessa mesma noite
+              pela primeira vez ligou para seu vendedor de drogas ilícitas e perdeu o controle,
+              comenta no documentário que se surpreende de que naquela mesma noite não teve
+              uma overdose.</p>
+
+              <b>Twisted reality, hopeless insanity / 
+              I told you I was okay, but I was lying</b>
+              <p>Nesse trecho ela admite que já estava viciada, mas dizia à família e amigos que
+              estava bem. No documentário seus familiares e amigos relatam que ela era uma
+              boa mentirosa e sabia esconder seus sentimentos e o que estava realmente
+              acontecendo. Eles não faziam ideia da profundidade do problema do vício.</p>
+
+              <b>I was dancing with the devil /
+              Out of control / 
+              Almost made it to heaven / 
+              It was closer than you know / 
+              Playing with the enemy / 
+              Gambling with my soul /
+              It's so hard to say no / 
+              When you're dancing with the devil / 
+              Ooh, ooh, ooh, ooh / 
+              Yeah, yeah</b>
+              <p>No refrão ela canta sobre a situação que estava vivendo e assume que estava fora
+              do controle. Em relação ao nome da música Dancing with the devil ela usa como
+              uma metáfora ao uso das drogas e bebidas, ou seja, ela estava dançando com os
+              demônios.
+              Demi canta que está fora do controle e quase chegou ao céu, ela diz isso em uma
+              metáfora para representar quando chegou no hospital depois da overdose e os
+              médicos não sabiam o que poderia acontecer. Ao dizer “It was closer than you
+              know” ela se dirige aos fãs ou qualquer um que não viveu o momento de perto, pois
+              não faziam ideia da gravidade do que estava passando, até tudo ser contado no
+              documentário. Um de seus amigos Matthew Scott Montgomery, diz que pra muitos
+              que estavam de fora acreditavam que ela teve uma overdose, como as que ela já
+              teve antes, foi para reabilitação e reapareceu se apresentando no Grammy, com
+              uma de suas apresentações de maior destaque, com uma das músicas sobre tudo
+              que ela tinha vivido, Anyone. Ao falar sobre isso Matthew se refere a overdose em si
+              e quão sério foi, mas também a todas as complicações que ela teve, Demi sofreu
+              três derrames e um ataque cardíaco durante a overdose, lhe causando danos
+              cerebrais permanentes. No final do refrão ela canta a respeito de jogar/apostar sua
+              alma que era exatamente o que estava fazendo, testando seu limite porque já havia
+              passado por isso antes. Mas não imaginava que seria tão difícil parar de novo (falar
+              não), em momentos de desespero ela conta que aceitava qualquer tipo de droga
+              que lhe ofereciam.</p>
+
+              <b>It's just a little white line, I'll be fine / 
+              But soon that little white line is a little glass pipe / 
+              Tin foil remedy almost got the best of me / 
+              I keep praying I don't reach the end of my lifetime, mm</b>
+              <p>Nessa estrofe, diferente da primeira que se refere ao vinho (bebida alcoólica) Demi
+              cita as drogas. Principalmente a situação que é contada pela sua melhor amiga,
+              Sirah, de quando Demi foi encontrada no banheiro dopata após sua recaída e quase
+              teve uma overdose nessa noite.
+              No hospital, Demi e todos rezavam por ela, pois os médicos falavam que as
+              próximas 24 horas no hospital seriam decisivas.</p>
+
+              <b>Twisted reality, hopeless insanity / 
+              I told you I was okay, but I was lying / 
+              I was dancing with the devil /
+              Out of control / 
+              Almost made it to heaven / 
+              It was closer than you know / 
+              Playing with the enemy / 
+              Gambling with my soul / 
+              It's so hard to say no / 
+              When you're dancing with the devil / 
+              (repete)
+              Thought I knew my limit, yeah /
+              I thought that I could quit it, yeah / 
+              I thought that I could walk away easily / 
+              But here I am, falling down on my knees / 
+              Praying for better days to come and wash this pain away / 
+              Could you please forgive me? / 
+              Lord, I'm sorry for dancing with the devil / 
+              Oh, yeah, yeah</b>
+              <p>Nessa última estrofe antes de ser cantado o refrão pela última vez, Demi
+              escreveu sobre no início do processo que acreditava que sabia seu limite, que
+              teria controle e conseguiria largar sem se viciar, mas não foi bem assim. Nos
+              últimos versos diz que agora reza por dias melhores e que essa dor acabe,
+              podemos associar esses versos ao momento que ela estava no hospital após a
+              overdose, pedindo perdão a todos mas principalmente a Deus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time -->
+      <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Documentário</h3>
+            </div>
+            <br>
+            <br>
+            <h5>"Nesta destemida série de documentários, Demi Lovato e sua família e amigos se abrem abertamente pela primeira vez sobre o que levou à sua overdose quase fatal"</h5>
+            <br>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/1qLf_ecCuw4?si=C1Xsu8AdV0jNCuB5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          </div>
+        </div>
+      </div>
+      <!-- Portfólio -->
+      <div id="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Músicas</h3>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/anyone.png" width="300px" height="300px" class="img-fluid" alt="Anyone">
+              <h2>Anyone</h2>
+              <br>
+              <br>
+              <p>Demi apresenta essa música para o mundo pela primeira vez ao vivo no Grammy de
+                2020, após um ano e meio afastada para se recuperar de uma overdose. Foi uma performance
+                emocionante, com sua voz poderosa atingindo vocais impressionantes.
+                A letra expõe uma busca por conexão e compreensão no meio de um profundo
+                sentimento de solidão e desespero, como um grito de socorro: “Eu me sinto idiota
+                quando rezo. Então por que estou rezando, se ninguém ouve? Alguém, por favor me
+                mande alguém. Senhor, tem alguém? Eu preciso de alguém.”
+                Essa música é um exemplo da honestidade, expõe fatos extremamente
+                pessoais que Demi relata em suas músicas, em relação às suas batalhas contra a
+                depressão, o vício e os desafios de saúde mental.</p>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/icu.jpeg" width="300px" height="300px" class="img-fluid" alt="ICU (Madison's Lullabye)">
+              <h2>ICU (Madison's Lullabye)</h2>
+              <br>
+              <br>
+              <p>Demi escreveu essa música para sua irmã, Madison De La Garza. Na letra, ela expressa o
+                sentimento de proteção que sente pela irmã, querendo protegê-la de erros e
+                dificuldades que ela mesma já enfrentou. Além de expor a promessa de apoiar sua
+                irmã, dizendo que é a pessoa para Madison procurar quando se sentir sozinha ou perdida.
+                A música foi baseada no momento em que Demi acorda no hospital e, por conta da
+                overdose, ela não enxergava. Então quando sua irmã fala com ela, Demi não
+                consegue vê-la.
+                'Cause I was blind but now I see
+                Clearly, I see you
+                Nesse trecho ela fala que estava cega, mas agora enxerga claramente sua irmã.
+              </p>
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/theart.jpeg" width="300px" height="300px" class="img-fluid" alt="The Art Of Starting Over">
+              <h2>The Art Of Starting Over</h2>
+              <br>
+              <br>
+              <p>Uma música que fala da força interior e da capacidade de se reinventar, Demi canta
+                sobre a sua resiliência e a capacidade de recomeçar após desafios e desilusões.
+                Reflete sobre sua nova perspetiva de vida após um período de reflexão. Agradece
+                por se manter de pé e deixar esse período de escuridão passar.
+                Depois de tudo que passou, Demi canta sobre reescrever um final diferente para
+                sua história, uma alusão à vontade de mudar o rumo de sua vida.
+                Repete “Starting over” reforça a mensagem de que apesar das dificuldades, há
+                sempre a possibilidade de recomeçar.
+                A música também aborda a superação de um relacionamento tóxico, que Demi
+                reconhece que “ a mulher em mim não chora por um homem que é um menino e
+                não merece isso”. Esse verso reflete o empoderamento e a autoafirmação,
+                destacando a importância da autovalorização e não aceitar menos do que merece.</p>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/lonelypeople.jpeg" width="300px" height="300px" class="img-fluid" alt="Lonely People">
+              <h2>Lonely People</h2>
+              <br>
+              <br>
+              <p>Explora a complexidade da solidão e a busca por significado e conexão em um
+                mundo onde todos, em algum nível, se sentem sozinhos. Passa a ideia de que
+                apesar da solidão é resiliente e aceita a situação.
+                Na música escreve sobre o amor, e que mesmo estando solteira é independente e
+                está feliz assim, desmistificando o amor romântico como uma solução para a
+                solidão.
+                Na última estrofe ela canta “Truth is we all die alone / So you better love yourself
+                before you go” ressaltando a importância de encontrar seu próprio valor e amor por
+                si mesmo, em vez de depender dos outros para preencher esse vazio.
+                
+              </p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/theway.jpg" width="300px" height="300px" class="img-fluid" alt="Lonely People">
+              <h2>The Way You Dont' Look At Me</h2>
+              <br>
+              <br>
+              <p>Demi em The Way You Don't Look At Me conta sobre sua luta interna, por questões
+                de autoimagem e autoestima.
+                O refrão da música destaca a dor causada pelo silêncio e indiferença de alguém
+                especial para Demi, como se a falta de olhar da pessoa fosse uma rejeição
+                silenciosa. Aborda o medo da rejeição e vulnerabilidade também, sugerindo uma
+                preocupação com a aceitação física e emocional, e medo de se mostrar
+                verdadeiramente e ser abandonada.
+                A música é uma expressão sincera de dor emocional e a busca por aceitação.</p>
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/meloncake.jpg" width="300px" height="300px" class="img-fluid" alt="Melon Cake">
+              <h2>Melon Cake</h2>
+              <br>
+              <br>
+              <p>A referência de “Melon Cake” refere-se à quando Demi ganhava um bolo de melão
+                no seu aniversário em vez de um bolo de aniversário de verdade, representando a
+                rejeição de prazeres e desejos em favor de manter uma imagem idealizada.
+                Na música Demi expressa a liberdade pessoal e desprezo as pressões estéticas
+                imposta pela sociedade. Na letra é refletida a decisão de derrubar as barreiras que a
+                impedem de viver autenticamente, enfatizando a alegria e o alívio encontrados na
+                autoaceitação e na rejeição das normas opressivas.</p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/demiari.jpeg" width="300px" height="300px" class="img-fluid" alt="Met Him Last Night">
+              <h2>Met Him Last Night</h2>
+              <br>
+              <br>
+              <p>Uma colaboração com a Ariana Grande que explora a tensão e o perigo
+                representado por uma pessoa atrativa, comparada ao diabo, citando um encontro
+                com a pessoa que apesar de ser engraçado e atraente, não sendo benéfica nem
+                certa.
+                A narrativa da canção gira em torno da dualidade entre a atração e o
+                reconhecimento do perigo. O envolvimento com alguém que embora pareça “certo”
+                é claramente uma má escolha, havendo uma luta interna pela complexidade
+                emocional, entre ceder à tentação ou manter-se firme diante da atração.
+                A canção serve como um lembrete de que, em certas ocasiões, é importante dizer
+                não e se distanciar de situações ou pessoas que, embora possam parecer
+                atraentes, são prejudiciais.</p>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/whatother.jpeg" width="300px" height="300px" class="img-fluid" alt="What Other People Say">
+              <h2>What Other People Say</h2>
+              <br>
+              <br>
+              <p>Essa música é mais uma colaboração presente no álbum, dessa vez com Sam
+                Fischer, abordando como a pressão social muda as opiniões e escolhas de uma
+                pessoa, refletindo à perda de identidade.
+                Nessa música levando em consideração o lado da Demi, ela reflete sobre a
+                trajetória que gostaria de ter seguido, com base nos princípios e valores que foram
+                lhe ensinados pela sua família por parte de mãe, mas em vez disso suas escolhas e
+                atitudes tomadas são bem parecidas com de seu pai, que era viciado. Por conta de
+                toda pressão durante sua carreira, Demi se envolveu com drogas, nos trechos “I'm
+                living the life that I said I wouldn't” se refere a algo que sempre falou em relação ao
+                seu pai e como não queria acabar como ele.
+                </p>
+            </div>
+            <div class="col-md-4 project-box seo">
+            <img src="img/carefully.jpeg" width="300px" height="300px" class="img-fluid" alt="Carefully">
+            <h2>Carefully</h2>
+            <br>
+            <br>
+            <p>Demi expressa seus sentimentos em relação ao amor e relacionamento, pedindo
+              para que seu par romântico tratá-la com cuidado, não por ser fraca mas por
+              reconhecer sua própria força e fragilidade. Destaca também a importância da
+              delicadeza e do respeito nas interações pessoais, especialmente quando se trata de
+              emoções profundas.
+              Depois de tudo que passou, Demi possui uma autoconsciência que a permite exigir
+              o que precisa de um parceiro. Na música ela fala da profundidade do seu
+              envolvimento emocional e do desejo de uma conexão duradoura.
+              </p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/thekind.jpeg" width="300px" height="300px" class="img-fluid" alt="The Kind Of Lover I Am">
+            <h2>The Kind Of Lover I Am</h2>
+            <br>
+            <br>
+            <p>A música explora a fluidez e a versatilidade do amor e desejo. Demi, esclarece
+              deixando claro que não faz parte dos modelos tradicionais de relacionamento,
+              falando sobre uma visão mais aberta e menos convencional sobre amor. A música
+              promove uma mensagem de amor inclusivo e sem barreiras.
+              Escreve sobre a intensidade e conexão emocional, e que são mais importantes para
+              ela do que a duração ou formalidade do relacionamento.
+              Além de refletir sobre a autossuficiência e um conforto com a própria companhia,
+              porém mesmo estando sozinha se sentido completa, está aberta para o amor.
+              </p>
+          </div>
+          <div class="col-md-4 project-box dsg">
+            <img src="img/deminoah.jpeg" width="300px" height="300px" class="img-fluid" alt="Easy">
+            <h2>Easy</h2>
+            <br>
+            <br>
+            <p>Mais uma colaboração presente no álbum, nessa música com Noah Cyrus. Demi e
+            Noah cantam sobre deixar alguém sem mostrar que doi. A música não deixa claro
+            se refere a uma amizade ou um relacionamento romântico, mas o ponto é a perda
+            dolorosa e a esperança de fazer com que a partida pareça fácil.
+              </p>
+          </div>
+          <div class="col-md-4 project-box seo">
+            <img src="img/exnoivo.jpeg" width="300px" height="300px" class="img-fluid" alt="15 Minutes">
+            <h2>15 Minutes</h2>
+            <br>
+            <br>
+            <p>Demi escreveu essa música para seu ex-noivo e fala sobre ter dado a ele 15
+              minutos de fama. Uma música pós-tremino, isso fica claro no trecho "But you don't
+              even care about me like that, Cause you were looking for 15 minutes", relatando o
+              fato de que seu ex-noivo se envolve com ela pela fama, e durou pouco se referindo
+              a esse pouco tempo como 15 minutos.</p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/lgbt.jpeg" width="300px" height="300px" class="img-fluid" alt="My Girlfriends are My Boyfriends">
+            <h2>My Girlfriends are My Boyfriends</h2>
+            <br>
+            <br>
+            <p>Demi escreveu essa música para seu ex-noivo e fala sobre ter dado a ele 15
+              minutos de fama. Uma música pós-tremino, isso fica claro no trecho "But you don't
+              even care about me like that, Cause you were looking for 15 minutes", relatando o
+              fato de que seu ex-noivo se envolve com ela pela fama, e durou pouco se referindo
+              a esse pouco tempo como 15 minutos.</p>
+          </div>
+          <div class="col-md-4 project-box dsg">
+            <img src="img/sober.jpg" width="300px" height="300px" class="img-fluid" alt="California Sober">
+            <h2>California Sober</h2>
+            <br>
+            <br>
+            <p>Demi usa o termo "California Sober" para retratar seu estado atual, com um
+              significado duvidoso que se refere à prática de consumir maconha, e em alguns
+              casos, quantidades moderadas de álcool, mas nenhuma outra substância.
+              A cantora deixa claro que não se sente confortável em explicar seus parâmetros de
+              sua recuperação porque não quer que ninguém compare, achando que isso pode
+              funcionar para eles também, porque pode não funcionar.
+              Demi atualmente discorda com esse modo, mas na época que acreditava ser a
+              melhor opção quando escreveu essa música, deixa claro que para ela falar que
+              "nunca mais faria isso" se referindo as drogas e bebidas e que estaria se
+              preparando
+              pro fracasso.</p>
+          </div>
+          <div class="col-md-4 project-box seo">
+            <img src="img/madworld.jpeg" width="300px" height="300px" class="img-fluid" alt="Mad World">
+            <h2>Mad World</h2>
+            <br>
+            <br>
+            <p>A faixa é na verdade um cover da banda britânica Tears For Fears, presente no
+              álbum The Hurting.</p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/butterfly.jpeg" width="300px" height="300px" class="img-fluid" alt="Butterfly">
+            <h2>Butterfly</h2>
+            <br>
+            <br>
+            <p>Essa música é sobre o pai biológico da cantora. Em muitas músicas e em entrevista
+              ao se referir a uma figura paterna, Demi se refere ao seu padrasto que foi quem a
+              criou ao lado de sua mãe. Seu pai por também ter problemas com o vício e drogas
+              não era presente. Ela conta em entrevista que não se deu tempo suficiente para o
+              luto, e que por muitos anos continuou em conflito em como se sentia em relação a
+              morte de seu pai. Depois de anos, em entrevista conta que escreveu uma carta de
+              gratidão ao seu pai, liberando todo seu ressentimento. Falou também sobre a
+              história da música e o porquê “Borboletas”.
+              “Eu escrevi essa música sobre meu pai biológico. Sempre tive uma relação
+              complicada com ele e senti que foi na morte dele que realmente nos tornamos mais
+              próximos. Tive mais compaixão e compreensão por quem ele era, e vim a entender
+              por que ele não podia aparecer para mim do jeito que eu sempre quis que ele
+              fizesse. Quando uma borboleta veio direto ao meu dedo no Dia dos Pais no ano
+              passado, por volta do aniversário de sua morte, eu sabia que tinha que escrever
+              uma música sobre isso. Minha letra favorita é 'Você nunca foi realmente
+              gracioso/Agora você é exatamente o que deveria ser.' Isso explica perfeitamente a
+              transição do meu pai da vida para a morte. Eu sinto que ele se tornou gracioso e
+              delicado de uma maneira que ele nunca foi capaz de ser na terra.”</p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/goodplace.jpeg" width="300px" height="300px" class="img-fluid" alt="Good Place">
+            <h2>Good Place</h2>
+            <br>
+            <br>
+            <p>Última faixa do álbum, Demi canta como ficou mais forte depois de tudo que passou.
+              Como diz no próprio nome da música agora ela está num “lugar melhor”, Demi
+              sempre diz que não se arrepende de tudo que aconteceu, porque como ela disse
+              em entrevista “Tudo tinha que acontecer para que eu aprendesse as lições que
+              aprendi”, “Olho para trás e às vezes fico triste quando penso na dor que tive que
+              suportar para superar o que tenho. Tenho muito orgulho da pessoa que sou hoje.
+              Uma das principais razões pelas quais estou me apresentando é para nunca mais
+              ter que viver essa vida novamente.”
+              Nessa música, Demi deixa claro que agora está bem e pronta para voltar aos
+              palcos.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div id="call-area">
+        <div class="container">
+          <div class="row">
+            <p>SEMINÁRIO DE MÚSICA DA PROFESSORA TALITA MAGNOLO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Rodapé -->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">A UFJF</h3>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-tile">Ligue para: </span> (32) 2102-3911</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-tile">Envie um email: </span> faleconosco@ufjf.edu.br</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-tile">RTVI: </span> Faculdade de Comunicação - UFJF</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Por Beatriz De Freitas Kronemberger e Maria Clara De Paula Rettl</p>
+            <p><a href="https://www2.ufjf.br/ufjf/" target="_blank">Universidade Federal de Juiz de Fora</a>
+              &copy; 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
